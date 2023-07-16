@@ -1,0 +1,53 @@
+
+
+
+
+/* 
+===============
+Global styling 
+===============
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* 
+===============
+Navigation-bar styling 
+===============
+*/
+
+nav{
+    width: 100vw;
+    height: 60px;
+    padding: 15px 50px;
+    padding-right: 200px;
+
+    /* for understanding */
+    border: 2px solid red;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    font-size: 20px;
+
+        /* for understanding */
+        border: 2px solid blue;
+}
