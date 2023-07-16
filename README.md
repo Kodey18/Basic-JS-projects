@@ -1,0 +1,2 @@
+hello, i am computer science student and i have created this reposiory to practice the core concepts of JavaScript.
+This repository has 15 different basic Projects. To build these projects basics of other languages like HTML, CSS are used.
