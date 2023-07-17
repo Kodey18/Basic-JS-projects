@@ -43,7 +43,8 @@ nav{
     padding: 15px 50px;
     padding-right: 200px;
     font-family: 'Fauna One', serif;
-    box-shadow: 0px 3px 7px black; 
+    box-shadow: 0px 3px 7px black;
+    background-color: white; 
 }
 
 .navbar{
@@ -76,7 +77,7 @@ Main section styling
 
 .section{
     text-align: center;
-    font-family: 'Cinzel', serif;
+    font-family: 'Ysabeau Infant', sans-serif; 
 
 }
 
