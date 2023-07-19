@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');    
+
+/* font-family: 'Quicksand', sans-serif; */
+
+/*
+==============
+global styling
+==============
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(16, 15, 15, 0.936);
+    color: rgb(241, 238, 234);
+}
+
+button{
+    font-size: 20px;
+    margin: 0 30px;
+    height: 50px;
+    width: 120px;
+    border: 6px solid black;
+    border-radius: 25px;
+}
+
+/*
+==============
+Navbar styling
+==============
+*/
+
+.navbar{
+    height: 4rem;
+    text-align: center;
+    background-color: rgba(16, 15, 15, 0.936);
+    color: white;
+    
+    border: 5px solid black;
+}
+
+.counter{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 5.5px;
+}
+
+/*
+==============
+Container styling
+==============
+*/
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: calc(100vh - 4rem);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.btn-container{
+    margin-top: 3rem;
+}
+
+.Decrease{
+    background-color: red;
+    border-color: red;
+    box-shadow: 3px 8px 0 rgb(143, 9, 9);
+}
+
+.Reset{
+    background-color: paleturquoise;
+    border-color: paleturquoise;
+    box-shadow: 3px 8px 0 rgb(40, 193, 193);
+}
+
+.Increase{
+    background-color: rgb(25, 194, 25);
+    border-color: rgb(25, 194, 25)Counter;
+    box-shadow: 3px 8px 0 rgba(14, 129, 14, 0.913);
+}
