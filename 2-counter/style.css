@@ -21,12 +21,13 @@ body{
 }
 
 button{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 400;
     margin: 0 30px;
-    height: 50px;
-    width: 120px;
+    height: 70px;
+    width: 160px;
     border: 6px solid black;
-    border-radius: 25px;
+    border-radius: 35px;
 }
 
 /*
@@ -68,23 +69,62 @@ Container styling
 }
 
 .btn-container{
-    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
 }
 
 .Decrease{
     background-color: red;
     border-color: red;
-    box-shadow: 3px 8px 0 rgb(143, 9, 9);
+    box-shadow: 4px 12px 0 rgb(143, 9, 9);
 }
 
 .Reset{
     background-color: paleturquoise;
     border-color: paleturquoise;
-    box-shadow: 3px 8px 0 rgb(40, 193, 193);
+    box-shadow: 4px 12px 0 rgb(40, 193, 193);
 }
 
 .Increase{
     background-color: rgb(25, 194, 25);
-    border-color: rgb(25, 194, 25)Counter;
-    box-shadow: 3px 8px 0 rgba(14, 129, 14, 0.913);
+    border-color: rgb(25, 194, 25);
+    box-shadow: 4px 12px 0 rgba(14, 129, 14, 0.913);
+}
+
+/*
+==============
+Utility classes
+==============
+*/
+
+.red{
+    color: red;
+}
+
+.green{
+    color: rgb(95, 234, 95);
+}
+
+.neutral{
+    color: white;
+}
+
+.d{
+    transform: translate(0px, 10px);
+    border-color:  rgb(220, 13, 13);
+    background-color: rgb(220, 13, 13);
+}
+
+.r{
+    transform: translate(0px, 10px);
+    border-color:  rgb(104, 219, 219);
+    background-color: rgb(104, 219, 219);
+}
+
+.i{
+    transform: translate(0px, 10px);
+    border-color:  rgba(14, 129, 14, 0.913);
+    background-color: rgba(14, 129, 14, 0.913);
 }
