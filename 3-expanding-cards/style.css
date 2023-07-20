@@ -12,7 +12,6 @@ global styling
 }
 
 body{
-    background-color: aliceblue;
     background-color: rgba(12, 12, 12, 0.941);
 }
 
@@ -41,7 +40,7 @@ main styling
     margin: 0px 15px;
     border-radius: 50px;
 
-    border: 4px solid black;
+    /* border: 4px solid black; */
 }
 
 .img-container:hover{
