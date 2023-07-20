@@ -1,0 +1,83 @@
+
+/*
+==============
+global styling 
+===============  
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    background-color: rgba(12, 12, 12, 0.941);
+}
+
+/*
+==============
+main styling 
+===============  
+*/
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 200px;
+    min-height: calc(100vh - 150px);
+}
+
+.img-container{
+    height: calc((100vh - 150px) - 173px);
+    flex: 1;
+    margin: 0px 15px;
+    border-radius: 50px;
+
+    border: 4px solid black;
+}
+
+.img-container:hover{
+    cursor: pointer;
+}
+
+/*
+==============
+utility classes
+===============  
+*/
+.show{
+    flex: 8;
+    background-size: contain;
+}
+
+.img1{
+    background-image: url(./images/img1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url(./images/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img3{
+    background-image: url(./images/img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img4{
+    background-image: url(./images/img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
