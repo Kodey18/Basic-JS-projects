@@ -25,8 +25,6 @@ main styling
     align-items: center;
     background-color: rgba(12, 11, 11, 0.911);
     position: relative;
-
-    border: 2px solid red;
 }
 
 .container{
