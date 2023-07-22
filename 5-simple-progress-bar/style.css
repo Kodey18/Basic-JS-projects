@@ -1,0 +1,67 @@
+
+/*  
+===============
+global styling
+===============
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*  
+===============
+main styling
+===============
+*/
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(12, 11, 11, 0.911);
+    position: relative;
+
+    border: 2px solid red;
+}
+
+.container{
+    width: 80vw;
+    height: 50px;
+    max-height: fit-content;
+    border: 3px solid white;
+    position: relative;
+    border-radius: 20px;
+}
+
+.progress-bar{
+    height: 100%;
+    border-radius: 20px;
+    background-color: blueviolet;
+    position: absolute;
+}
+
+.progress{
+    animation: progress-animation 5s forwards;
+}
+
+@keyframes progress-animation {
+    0% {width: 0%;}
+    100% {width: 100%;}
+}
+
+#start{
+    margin-top: 4rem;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+#start:active{
+    transform: scale(0.98);
+}
