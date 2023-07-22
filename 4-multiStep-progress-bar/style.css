@@ -51,8 +51,6 @@ main styling
 .main{
     text-align: center;
     overflow: hidden;
-
-    border: 2px solid red;
 }
 
 .progress-container{
@@ -63,8 +61,6 @@ main styling
     width: 350px;
     margin-bottom: 30px;
     position: relative;
-
-    border: 2px solid green;
 }
 
 .progress-container::before{
